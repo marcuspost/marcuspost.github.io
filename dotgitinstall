@@ -10,5 +10,8 @@ if [ $? = 0 ]; then
     echo "Backing up pre-existing dot files.";
     DGI_DG checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
 fi;
+echo Second Checkout
 DGI_DG checkout
+echo Disabling showUnTrackedFiles
 DGI_DG config status.showUntrackedFiles no
+DGI_DG push --set-upstream origin master
