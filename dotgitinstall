@@ -1,11 +1,14 @@
 git clone --bare https://github.com/marcuspost/dot.git $HOME/.cfg
+function DGI_DG {
+	/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
+}
 mkdir -p .dotgit-backup
-dotgit checkout
+DGI_DG checkout
 if [ $? = 0 ]; then
   echo "Checked out config.";
   else
     echo "Backing up pre-existing dot files.";
-    dotgit checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+    DGI_DG checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
 fi;
-dotgit checkout
-dotgit config status.showUntrackedFiles no
+DGI_DG checkout
+DGI_DG config status.showUntrackedFiles no
