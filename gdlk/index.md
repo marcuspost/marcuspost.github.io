@@ -35,9 +35,17 @@ author: "Toodles"
 ### PiiWee
 * [Documentation - PiiWee Welcome Sheet](./piiweewelcome.pdf)
 
+### Remora
+* [Documentation - Remora Welcome Sheet](./RemoraWelcome.pdf)
+
+### Spark
+* [Documentation - Spark Welcome Sheet](./SparkWelcome.pdf)
+
 ### Kitty
 * [Firmware - VLX Kitty v1.1](./kitty/VLXKitty11.zip)
 * [Firmware - VLX Kitty v1.0](./kitty/VLXKitty10.zip)
+* [Documentation - Kitty User's Guide](./kitty/KittyUsersGuide.pdf)
+* [Documentation - TE Kitty Welcome Sheet](./kitty/TEKitty_Install.pdf)
 * [Documentation - VLX Kitty Install](./kitty/VLXKitty_Install.pdf)
 * [Documentation - TE-S Kitty Install](./kitty/TESKitty_Install.pdf)
 * [Documentation - TE Kitty Install](./kitty/TEKitty_Install.pdf)
