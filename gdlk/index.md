@@ -53,6 +53,8 @@ author: "Toodles"
 ### MC Cthulhu
 * [Documentation - MC Cthulhu Welcome Sheet](./cthulhu/MCCthulhuWelcome.pdf)
 * [Utility - MC Cthulhu - Change USB String](./cthulhu/cthulhu_eepromwrite.zip)
+* [Firmware - MC Cthulhu v2.3](./cthulhu/MCCthulhu23.zip)
+* [Firmware - MC Cthulhu Variations](./cthulhu/MCVariations.zip)
 * [Firmware - MC Cthulhu v1.1](./cthulhu/MCCthulhu11.zip)
 * [Firmware - MC Cthulhu v1.3](./cthulhu/MCCthulhu13.zip)
 * [Firmware - MC Cthulhu v1.3b](./cthulhu/MCCthulhu13b.zip)
